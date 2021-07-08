@@ -49,11 +49,11 @@ invoiceTableBody.innerHTML += `<tr><td>${name}</td><td>${service}</td><td>$${ser
 
 
 Finally we have our table footer
-there are three ids we can use here
+there are three ids we can use here<br>
 
-var subTotal = document.getElementById("subTotal");
-var tax = document.getElementById("taxRate");
-var finalTotal = document.getElementById("finalTotal");
+var subTotal = document.getElementById("subTotal");<br>
+var tax = document.getElementById("taxRate"); <br>
+var finalTotal = document.getElementById("finalTotal");<br>
 
 for each of these we can modify them with the lines below. this is where we would use the
 totals we gathered in the previous step.
