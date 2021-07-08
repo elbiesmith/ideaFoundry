@@ -58,6 +58,6 @@ var finalTotal = document.getElementById("finalTotal");
 for each of these we can modify them with the lines below. this is where we would use the
 totals we gathered in the previous step.
 
-subTotal.innerText = `$${itemSubTotal}`
-tax.innerText = `$${itemTax}`
+subTotal.innerText = `$${itemSubTotal}` <br>
+tax.innerText = `$${itemTax}` <br>
 finalTotal.innerText = `$${itemFinalTotal}`
