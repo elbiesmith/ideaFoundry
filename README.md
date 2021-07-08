@@ -4,6 +4,8 @@
 It's non functional but I've added in id's so that it could be used as
 a template in javascript to generate custom invoices.</p>
 
+<a href="ideafoundry.elbiesmith.com" target="_blank">Live Preview</a>
+
 data handles
 
 <strong>title bar: use this to set the unique invoice number in the tab text</strong><br>
