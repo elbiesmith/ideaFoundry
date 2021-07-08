@@ -6,23 +6,26 @@ a template in javascript to generate custom invoices.</p>
 
 data handles
 
-title bar: use this to set the unique invoice number in the tab text
+<strong>title bar: use this to set the unique invoice number in the tab text</strong><br>
 var titleInvoiceNumber = document.getElementById('titleInvoiceNumber');
 
-usage
-titleInvoiceNumber.innerText = '19006'
+<strong>usage</strong><br>
+titleInvoiceNumber.innerText = '19006';
 
-Client number
-var clientNumber = document.getElementById("clientNumber")
+<strong>Client number</strong><br>
+var clientNumber = document.getElementById("clientNumber");
 
-invoice Date
-var clientNumber = document.getElementById("invoiceDate")
+<strong>invoice Date</strong><br>
+var clientNumber = document.getElementById("invoiceDate");
 
-invoice Number
-var clientNumber = document.getElementById("invoiceNumber")
+<strong>invoice Number</strong><br>
+var clientNumber = document.getElementById("invoiceNumber");
 
-client Name, and 2 address lines
-var clientNumber = document.getElementById("clientName")
-var clientNumber = document.getElementById("clientAddress")
-var clientNumber = document.getElementById("clientAddress2")
+<strong>client Name, and 2 address lines</strong><br>
+var clientNumber = document.getElementById("clientName");<br>
+var clientNumber = document.getElementById("clientAddress");<br>
+var clientNumber = document.getElementById("clientAddress2");<br>
 
+
+For the table items we will populate each item with a loop. first get the table row
+var invoiceItemRow = document.getElementById('invoiceItemRow');
