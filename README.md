@@ -27,5 +27,5 @@ var clientNumber = document.getElementById("clientAddress");<br>
 var clientNumber = document.getElementById("clientAddress2");<br>
 
 
-For the table items we will populate each item with a loop. first get the table row
+For the table items we can use the table row and append our <code><td></td></code>
 var invoiceItemRow = document.getElementById('invoiceItemRow');
