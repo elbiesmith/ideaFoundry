@@ -27,5 +27,37 @@ var clientNumber = document.getElementById("clientAddress");<br>
 var clientNumber = document.getElementById("clientAddress2");<br>
 
 
-For the table items we can use the table row and append our <code><td></td></code>
-var invoiceItemRow = document.getElementById('invoiceItemRow');
+For the table items we can use the table row and append our data cells
+var invoiceTableBody = document.getElementById('invoiceTableBody');
+
+<strong>usage</strong>
+first make sure the table body is empty
+invoiceTableBody.innerHTML = "";
+
+then append your row and data cells. For this example our data is in the following variables
+let name = 'Design';
+let service = 'Website Design';
+let serviceCost = 60;
+let numberOfServices = 10;
+let serviceTotal = serviceCost * numberOfServices
+
+now to append you can loop through adding as many of these as needed.
+keep in mind that you should keep a running total of how many items are listed and their total
+cost so we can populate the table footer
+
+invoiceTableBody.innerHTML += `<tr><td>${name}</td><td>${service}</td><td>$${serviceCost}</td><td>${numberOfServices</td><td>$${serviceTotal}</td></tr>`;
+
+
+Finally we have our table footer
+there are three ids we can use here
+
+var subTotal = document.getElementById("subTotal");
+var tax = document.getElementById("taxRate");
+var finalTotal = document.getElementById("finalTotal");
+
+for each of these we can modify them with the lines below. this is where we would use the
+totals we gathered in the previous step.
+
+subTotal.innerText = `$${itemSubTotal}`
+tax.innerText = `$${itemTax}`
+finalTotal.innerText = `$${itemFinalTotal}`
