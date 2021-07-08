@@ -6,22 +6,22 @@ a template in javascript to generate custom invoices.</p>
 
 data handles
 
-<!-- title bar: use this to set the unique invoice number in the tab text -->
+title bar: use this to set the unique invoice number in the tab text
 var titleInvoiceNumber = document.getElementById('titleInvoiceNumber');
 
-<!-- usage -->
+usage
 titleInvoiceNumber.innerText = '19006'
 
-<!-- Client number -->
+Client number
 var clientNumber = document.getElementById("clientNumber")
 
-<!-- invoice Date -->
+invoice Date
 var clientNumber = document.getElementById("invoiceDate")
 
-<!-- invoice Number -->
+invoice Number
 var clientNumber = document.getElementById("invoiceNumber")
 
-<!-- client Name, and 2 address lines -->
+client Name, and 2 address lines
 var clientNumber = document.getElementById("clientName")
 var clientNumber = document.getElementById("clientAddress")
 var clientNumber = document.getElementById("clientAddress2")
