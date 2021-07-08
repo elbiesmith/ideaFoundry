@@ -4,7 +4,7 @@
 It's non functional but I've added in id's so that it could be used as
 a template in javascript to generate custom invoices.</p>
 
-<a href="ideafoundry.elbiesmith.com" target="_blank">Live Preview</a>
+<a href="http://ideafoundry.elbiesmith.com" target="_blank">Live Preview</a>
 
 data handles
 
