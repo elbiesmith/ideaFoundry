@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Idea Foundry - Invoice #19005</title>
+    <title>Idea Foundry - Invoice #<span id="titleInvoiceNumber">19005</span></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,25 +27,25 @@
                     <img src="/img/IdeaFoundryLogo.svg" alt="">
                 </div>
                 <div class="col text-end align-self-center">
-                    <strong>Client No: 4908</strong>
+                    <strong>Client No: <span id='clientNumber'>4908</span></strong>
                 </div>
             </div>
             <div class="row border-top border-bottom py-2">
-                <div class="col">
-                    <strong>Date:</strong>05/12/2019
+                <div class="col" >
+                    <strong>Date:</strong><span id="invoiceDate">05/12/2019</span>
                 </div>
-                <div class="col text-end">
-                    <strong>Invoice No:</strong>19005
+                <div class="col text-end" >
+                    <strong>Invoice No:</strong><span id="invoiceNumber">19005</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col py-2">
+                <div class="col py-2" id="invoiceTo">
                     <p class="m-0">
                         <strong>Invoice To:</strong>
                     </p>
-                    <p class="m-0">Mark Davis</p>
-                    <p class="m-0">3333 Al Davis Way</p>
-                    <p class="m-0">Las Vegas, NV 89118</p>
+                    <p class="m-0" id='clientName'>Mark Davis</p>
+                    <p class="m-0" id='clientAddress1'>3333 Al Davis Way</p>
+                    <p class="m-0" id="clientAddress2">Las Vegas, NV 89118</p>
                 </div>
                 <div class="col text-end">
                     <div class="col">
@@ -70,7 +70,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr id="invoiceItemRow">
                             <td>Design</td>
                             <td>Website Design</td>
                             <td>$60.00</td>
@@ -94,14 +94,14 @@
                     <tfoot>
                         <tr>
                             <td colspan='4' class="text-end">Sub Total:</td>
-                            <td class="text-end">$2,550.00</td>
+                            <td class="text-end" id="subTotal">$2,550.00</td>
                         </tr>
                         <tr class="">
-                            <td colspan='4' class="text-end">Tax:</td>
+                            <td colspan='4' class="text-end" id="taxRate">Tax:</td>
                             <td class="text-end">$0.00</td>
                         </tr>
                         <tr>
-                            <td colspan='4' class="text-end">Total:</td>
+                            <td colspan='4' class="text-end" id="finalTotal">Total:</td>
                             <td class="text-end">$2,550.00</td>
                         </tr>
                     </tfoot>
