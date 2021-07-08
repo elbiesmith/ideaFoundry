@@ -27,11 +27,11 @@ var clientNumber = document.getElementById("clientAddress");<br>
 var clientNumber = document.getElementById("clientAddress2");<br>
 
 
-For the table items we can use the table row and append our data cells
+For the table items we can use the table row and append our data cells <br>
 var invoiceTableBody = document.getElementById('invoiceTableBody');
 
 <strong>usage</strong>
-first make sure the table body is empty
+first make sure the table body is empty<br>
 invoiceTableBody.innerHTML = "";
 
 then append your row and data cells. For this example our data is in the following variables
